@@ -3,3 +3,4 @@ Flask_Cors==3.0.10
 keras==2.10.0
 numpy==1.23.4
 opencv_python==4.6.0.66
+gunicorn
