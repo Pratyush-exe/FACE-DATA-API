@@ -7,6 +7,7 @@ from keras.models import model_from_json
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 x = open('./models/modelGender.json', 'r')
 genderModel = x.read()
